@@ -7,11 +7,9 @@
 
     <!-- stylesheet -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2? 
-     family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
+    <link rel="stylesheet" href="/assets/css/tailwind.css">
     
     <!-- meta -->
     
@@ -28,16 +26,24 @@
 <body>
     <!-- _includes/partials/_navigation.njk -->
 
-<nav>
-    
-        <a href="/">Home</a>
-    
-        <a href="/about/">About</a>
-    
-        <a href="/blog/">Blog</a>
-    
-</nav>
-    <main>
+<header class="bg-black text-gray-50 py-4">
+    <nav class="max-w-2xl mx-auto text-lg space-x-6">
+        
+            <a href="/"
+            
+            class="hover:text-sky-400">Home</a>
+        
+            <a href="/about/"
+            
+            class="hover:text-sky-400">About</a>
+        
+            <a href="/blog/"
+            
+            class="hover:text-sky-400">Blog</a>
+        
+    </nav>
+</header>
+    <main class="max-w-3xl mx-auto py-12 min-h-screen">
         
 <h1>Third Post</h1>
 <p>Labore occaecat excepteur ad sunt laboris. Lorem excepteur anim ut irure deserunt culpa est reprehenderit sunt id minim sint exercitation ullamco. Ullamco sit dolore minim sunt voluptate deserunt pariatur deserunt aliquip. Dolor cillum cillum proident mollit labore adipisicing minim eu do proident elit. Et id ea qui eiusmod deserunt nulla reprehenderit et laboris irure ad.</p>

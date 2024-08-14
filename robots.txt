@@ -1,0 +1,17 @@
+# *
+
+User-agent: *
+
+Allow: /
+
+
+
+# Host
+
+Host: https://learningeleventy.netlify.app/
+
+
+
+# Sitemaps
+
+Sitemap: https://learningeleventy.netlify.app/sitemap.xml
